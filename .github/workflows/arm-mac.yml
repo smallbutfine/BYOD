@@ -29,14 +29,14 @@ jobs:
       with:
         submodules: recursive
 
-    - name: Checkout add-ons
-      uses: actions/checkout@v2
-      if: github.event_name != 'pull_request'
-      with:
-        ref: main
-        repository: Chowdhury-DSP/BYOD-add-ons
-        path: modules/BYOD-add-ons
-        token: ${{ secrets.OUR_GITHUB_PAT }}
+   # - name: Checkout add-ons
+   #   uses: actions/checkout@v2
+   #   if: github.event_name != 'pull_request'
+   #   with:
+   #     ref: main
+   # repository: Chowdhury-DSP/BYOD-add-ons
+   #     path: modules/BYOD-add-ons
+   #     token: ${{ secrets.OUR_GITHUB_PAT }}
 
     - name: Configure
       shell: bash
