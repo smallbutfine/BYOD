@@ -1,5 +1,5 @@
-#define MyAppPublisher "Chowdhury DSP"
-#define MyAppURL "https://chowdsp.com"
+#define MyAppPublisher "Martin Haverland"
+#define MyAppURL "https://github.com/smallbutfine/BYOD"
 #define MyAppName "BYOD"
 #define MyAppVersion "##APPVERSION##"
 
@@ -11,7 +11,7 @@ AppPublisher={#MyAppPublisher}
 AppPublisherURL={#MyAppURL}
 AppSupportURL={#MyAppURL}
 AppUpdatesURL={#MyAppURL}
-DefaultDirName={commonpf}\Chowdhury DSP\
+DefaultDirName={commonpf}\Martin Haverland\
 DefaultGroupName={#MyAppName}
 DisableProgramGroupPage=yes
 DisableDirPage=yes
@@ -21,7 +21,7 @@ OutputBaseFilename="{#MyAppName}-Win-64bit-{#MyAppVersion}"
 OutputDir=.
 SetupIconFile=byod.ico
 UninstallDisplayIcon=byod.ico
-UninstallFilesDir={commonpf}\Chowdhury DSP\{#MyAppName}
+UninstallFilesDir={commonpf}\Martin Haverland\{#MyAppName}
 Compression=lzma
 SolidCompression=yes
 
