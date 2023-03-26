@@ -70,3 +70,9 @@ jobs:
 #    - name: Setup debug session
 #      if: always()
 #      uses: mxschmitt/action-tmate@v3
+
+    - name: Upload BYOD build process Artifacts
+      uses: actions/upload-artifact@v3
+      with:
+      name: byob-artifact
+      path: D:\a\BYOD\BYOD\build\BYOD_artefacts\Release\ # or path/to/artifact
