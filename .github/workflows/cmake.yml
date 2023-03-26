@@ -75,4 +75,4 @@ jobs:
       uses: actions/upload-artifact@v3
       with:
         name: byob-artifact
-        path: . # or path/to/artifact
+        path: build/BYOD_artefacts/Release # or path/to/artifact
